@@ -1,0 +1,35 @@
+{
+  "name": "gulp-json-query",
+  "version": "1.0.0",
+  "description": "Queries and transforms JSON files piped through it",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaa/gulp-json-query.git"
+  },
+  "keywords": [
+    "gulp",
+    "json",
+    "query",
+    "transform"
+  ],
+  "author": "Joakim Beijar [github.com/kaa]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaa/gulp-json-query/issues"
+  },
+  "homepage": "https://github.com/kaa/gulp-json-query#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^3.0.2",
+    "vinyl-fs": "^2.4.3"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "json-query": "^2.2.0",
+    "through2": "^2.0.1"
+  }
+}
